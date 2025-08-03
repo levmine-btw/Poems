@@ -771,7 +771,7 @@ body.overlay-active::before {
     }
 
    .poem__title {
-    font-size: 15px;
+    font-size: 14px;
    }
 
    .poem__text {
@@ -779,11 +779,11 @@ body.overlay-active::before {
    }
 
    .poem__date {
-    font-size: 14px;
+    font-size: 15px;
    }
 
    .poem-content {
-    width: 320px;
+    width: 350px;
     max-height: 520px;
    }
 
