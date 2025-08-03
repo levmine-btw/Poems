@@ -617,7 +617,7 @@ body.overlay-active::before {
     .collection__item:first-child {
     display: inline-block;
     font-size: 18px;
-    margin-right: 0;
+    margin-right: 40px;
    }
 
     .collection__item {
