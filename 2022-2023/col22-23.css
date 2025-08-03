@@ -617,7 +617,7 @@ body.overlay-active::before {
     .collection__item:first-child {
     display: inline-block;
     font-size: 18px;
-    margin-right: 40px;
+    margin-right: 0;
    }
 
     .collection__item {
@@ -698,9 +698,9 @@ body.overlay-active::before {
 
     .user__action__item img {
     margin: 0;
-    margin-right: 15px;
     width: 30px;
     height: 30px;
+    margin-right: 10px;
    }
 
 
@@ -708,7 +708,7 @@ body.overlay-active::before {
 
    .recommendations__title {
     font-size: 21px;
-    margin: 60px 0;
+    margin: 60px 0 50px 0;
    }
 
    .poems {
@@ -720,15 +720,19 @@ body.overlay-active::before {
         margin-right: 10px;
         margin-left: 10px;
         margin-bottom: 40px;
-        width: 412px;
+        width: 350px;
    }
 
+    .poems__item:first-child {
+        width: 350px;
+    }
+
    .poem__title {
-    font-size: 17px;
+    font-size: 15px;
    }
 
    .poem__text {
-    font-size: 16px;
+    font-size: 13px;
    }
 
    .poem__date {
@@ -736,22 +740,23 @@ body.overlay-active::before {
    }
 
    .poem-content {
-    max-width: 460px;
+    width: 300px;
+    max-height: 520px;
    }
 
    .poem-inner {
-    width: 70%;
+    width: 90%;
    }
 
    .poem-title {
-    font-size: 16px;
+    font-size: 13px;
    }
 
    .poem-text {
-    font-size: 14px;
+    font-size: 12px;
    }
 
    .poem-date {
-    font-size: 15px;
+    font-size: 12px;
    }
 }

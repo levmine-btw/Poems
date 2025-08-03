@@ -771,11 +771,11 @@ body.overlay-active::before {
     }
 
    .poem__title {
-    font-size: 18px;
+    font-size: 15px;
    }
 
    .poem__text {
-    font-size: 16px;
+    font-size: 13px;
    }
 
    .poem__date {
@@ -783,22 +783,23 @@ body.overlay-active::before {
    }
 
    .poem-content {
-    max-width: 460px;
+    width: 300px;
+    max-height: 520px;
    }
 
    .poem-inner {
-    width: 70%;
+    width: 90%;
    }
 
    .poem-title {
-    font-size: 16px;
+    font-size: 13px;
    }
 
    .poem-text {
-    font-size: 14px;
+    font-size: 12px;
    }
 
    .poem-date {
-    font-size: 15px;
+    font-size: 12px;
    }
 }
