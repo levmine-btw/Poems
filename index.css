@@ -771,11 +771,11 @@ body.overlay-active::before {
     }
 
    .poem__title {
-    font-size: 18px;
+    font-size: 17px;
    }
 
    .poem__text {
-    font-size: 16px;
+    font-size: 15px;
    }
 
    .poem__date {
