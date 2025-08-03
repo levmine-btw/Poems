@@ -9,7 +9,10 @@ function closeOverlay() {
         activeOverlay.classList.remove('active');
         document.documentElement.style.overflow = '';
         document.body.style.overflow = '';
-        document.removeEventListener('touchmove', preventDefault);
+        try {
+            document.removeEventListener('touchmove', preventDefault);
+        }
+        catch {}
     }
 }
 
@@ -28,7 +31,10 @@ poemTriggers.forEach(trigger => {
             correspondingOverlay.classList.add('active');
             document.documentElement.style.overflow = 'hidden';
             document.body.style.overflow = 'hidden';
-            document.addEventListener('touchmove', preventDefault, { passive: false });
+            try {
+                document.addEventListener('touchmove', preventDefault, { passive: false });
+            }
+            catch {}
         }
     });
 });

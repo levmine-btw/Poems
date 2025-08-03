@@ -784,10 +784,11 @@ body.overlay-active::before {
 
    .poem-content {
     max-width: 460px;
+    max-height: 520px;
    }
 
    .poem-inner {
-    width: 70%;
+    width: 90%;
    }
 
    .poem-title {
