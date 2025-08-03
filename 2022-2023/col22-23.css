@@ -744,7 +744,7 @@ body.overlay-active::before {
    }
 
    .poem-content {
-    width: 350px;
+    width: 330px;
     max-height: 520px;
    }
 
