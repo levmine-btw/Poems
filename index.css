@@ -402,6 +402,7 @@ body.overlay-active::before {
 .poem-date {
     display: inline-block;
     position: relative;
+    left: 135px;
 
     margin-top: 25px;
 
@@ -424,6 +425,7 @@ body.overlay-active::before {
     height: 1px;
     background: rgb(170, 170, 170);
 }
+
 
 
 
@@ -477,6 +479,7 @@ body.overlay-active::before {
 
    .poem-date {
     font-size: 18px;
+    left: 120px;
    }
 }
 
@@ -549,6 +552,7 @@ body.overlay-active::before {
 
    .poem-date {
     font-size: 17px;
+    left: 95px;
    }
 }
 
@@ -627,6 +631,7 @@ body.overlay-active::before {
 
    .poem-date {
     font-size: 15px;
+    left: 95px;
    }
 }
 
@@ -801,5 +806,6 @@ body.overlay-active::before {
 
    .poem-date {
     font-size: 14px;
+    left: 80px;
    }
 }
