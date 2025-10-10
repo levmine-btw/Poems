@@ -16,7 +16,7 @@ async function loadPoemToPage(filePath, prefix) {
       let unCheckTitle = lines[0].trim();
       
       if (lines[0].trim().split(/\s+/).length < 3) {
-        console.log("ДЛИНА 1 У ЗАГОЛОВКА");
+        // console.log("ДЛИНА 1 У ЗАГОЛОВКА");
         const titleEl = document.getElementById(elements.title);
         titleEl.textContent = unCheckTitle;
 
@@ -88,7 +88,7 @@ async function loadPoemToOverlay(filePath, prefix) {
     let unCheckTitle = lines[0].trim();
       
       if (lines[0].trim().split(/\s+/).length < 3) {
-        console.log("ДЛИНА 1 У ЗАГОЛОВКА");
+        // console.log("ДЛИНА 1 У ЗАГОЛОВКА");
         const titleEl = document.getElementById(elements.title);
         titleEl.textContent = unCheckTitle;
 
