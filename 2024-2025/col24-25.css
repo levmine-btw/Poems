@@ -38,11 +38,6 @@ p {
 
 /* Header */
 .header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 100;
-
     width: 100%;
     height: 100px;
     border-bottom: 2px solid #424242;
@@ -51,8 +46,7 @@ p {
     box-shadow: 0px 5px 20px #42424250;
 }
 
-/* Подложка для устранения просвечивания */
-.header::before {
+/* .header::before {
     content: '';
     position: absolute;
     top: 0;
@@ -61,7 +55,7 @@ p {
     bottom: 0;
     background: #e5e5e5;
     z-index: -1;
-}
+} */
 
 .header__logo {
     max-width: 80px;
@@ -168,7 +162,7 @@ p {
     text-align: center;
 
     margin: 80px 0;
-    margin-top: 180px;
+    /* margin-top: 180px; */
 }
 
 
