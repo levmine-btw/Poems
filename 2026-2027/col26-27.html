@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <script src="../poemLoader.js"></script>
+
+    <link rel="icon" href="../images/header/header-logo.png">
+    <link rel="stylesheet" href="./col26-27.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сборник 2026-2027</title>
+</head>
+<body>
+    
+    <header class="header">
+        <div class="header__inner"> 
+
+            <!-- Preview -->
+            <a class="preview" href="../index.html">
+                <div class="header__logo">
+                    <img src="../images/header/header-logo.png" 
+                    alt="" width="70px" height="70px">
+                </div>
+
+                <h1 class="header__title">
+                    Levmine <br>
+                    Poems <br>
+                </h1>
+            </a>
+
+            <!-- Collections -->
+            <div class="collections">
+                <a href="../index.html" class="collection__item">Главная</a>
+                <a href="../2022-2023/col22-23.html" class="collection__item">Сборник 2022-2023</a>
+                <a href="../2024-2025/col24-25.html" class="collection__item">Сборник 2024-2025</a>
+                <a href="./col26-27.html" class="collection__item">Сборник 2026-2027</a>
+            </div>
+
+        <div class="user__actions">
+            <!-- <a href="./index.html" class="user__action__item">
+                <img src="../images/header/like.png"
+                alt="" width="35px" height="35px">
+            </a> -->
+            <a href="https://github.com/levmine-btw" class="user__action__item" 
+            target="_blank" rel="noopener noreferrer">
+                <img src="../images/header/github.png" 
+                alt="" width="40px" height="40px">
+            </a>
+
+            <button class="collections__toggle">☰</button>
+            <div class="collections__dropdown">
+                <a href="../2022-2023/col22-23.html" class="dropdown__item">Сборник 2022-2023</a>
+                <a href="../2024-2025/col24-25.html" class="dropdown__item">Сборник 2024-2025</a>
+                <a href="./col26-27.html" class="dropdown__item">Сборник 2026-2027</a>
+            </div>
+        </div>
+
+        </div> <!-- /header__inner -->
+        
+    </header>
+
+    <div class="container">
+
+        <p class="recommendations__title">Сборник 2026-2027</p>
+        
+        <div class="poems">
+
+        <!-- Poem 1 -->
+            <div class="poems__item">
+                <script>loadPoemToPage("./poems-2026-2027/poem1.txt", prefix='poem1');</script>
+                <div class="poem__title" id="poem1__title"></div>
+                <div class="poem__container">
+
+                    <div class="poem__text" id="poem1__text"></div> <!-- /poem__text -->
+
+                </div> <!-- /poem__container -->
+
+                <div class="under__poem">
+
+                    <div class="poem__date" id="poem1__date"></div>
+                    
+                    <div class="poem__actions">
+                        <div class="poem__show-more" data-index="1">
+                            <img src="../images/recommendations/angle.png" 
+                            alt="" width="32px" height="25px">
+                        </div>
+                    </div> <!-- /poem__actions -->
+
+                </div> <!-- /under__poem -->
+
+            </div> <!-- /poems__item -->
+
+            <div class="poem-overlay" data-index="1">
+            <div class="poem-content">
+                <button class="close-btn" id="close-poem">x</button>
+                <script>loadPoemToOverlay("./poems-2026-2027/poem1.txt", "poem1");</script>
+                <div class="poem-inner">
+                <div class="poem-title" id="poem1-title"></div>
+                    <div class="poem-text" id="poem1-text"></div>
+
+        <div class="poem-date" id="poem1-date"></div>
+
+                        </div> <!-- /poem-inner -->
+                </div> <!-- /poem-content -->
+            </div> <!-- /poem-overlay -->
+
+
+        </div> <!-- /poems -->
+
+    </div> <!-- /container -->
+
+
+    <script src="../overlay.js"></script>
+    <script src="../collectionsList.js"></script>
+</body>
+</html>
