@@ -172,9 +172,9 @@ p {
     background-color: #e5e5e5b3;
 }
 
-.poems__item:first-child {
+/* .poems__item:first-child {
     width: 28%;
-}
+} */
 
 .poem__title {
     font-size: 18px;

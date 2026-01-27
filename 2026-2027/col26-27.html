@@ -69,6 +69,45 @@
         <p class="recommendations__title">Сборник 2026-2027</p>
         
         <div class="poems">
+        
+        <!-- Poem 2 -->
+            <div class="poems__item">
+                <script>loadPoemToPage("./poems-2026-2027/poem2.txt", prefix='poem2');</script>
+                <div class="poem__title" id="poem2__title"></div>
+                <div class="poem__container">
+
+                    <div class="poem__text" id="poem2__text"></div> <!-- /poem__text -->
+
+                </div> <!-- /poem__container -->
+
+                <div class="under__poem">
+
+                    <div class="poem__date" id="poem2__date"></div>
+                    
+                    <div class="poem__actions">
+                        <div class="poem__show-more" data-index="2">
+                            <img src="../images/recommendations/angle.png" 
+                            alt="" width="32px" height="25px">
+                        </div>
+                    </div> <!-- /poem__actions -->
+
+                </div> <!-- /under__poem -->
+
+            </div> <!-- /poems__item -->
+
+            <div class="poem-overlay" data-index="2">
+            <div class="poem-content">
+                <button class="close-btn" id="close-poem">x</button>
+                <script>loadPoemToOverlay("./poems-2026-2027/poem2.txt", "poem2");</script>
+                <div class="poem-inner">
+                <div class="poem-title" id="poem2-title"></div>
+                    <div class="poem-text" id="poem2-text"></div>
+
+        <div class="poem-date" id="poem2-date"></div>
+
+                        </div> <!-- /poem-inner -->
+                </div> <!-- /poem-content -->
+            </div> <!-- /poem-overlay -->
 
         <!-- Poem 1 -->
             <div class="poems__item">
