@@ -69,6 +69,45 @@
         <p class="recommendations__title">Рекомендовано автором</p>
 
         <div class="poems">
+
+        <!-- Poem 15 -->
+            <div class="poems__item">
+                <script>loadPoemToPage("./recom-poems/poem15.txt", prefix='poem15');</script>
+                <div class="poem__title" id="poem15__title"></div>
+                <div class="poem__container">
+
+                    <div class="poem__text" id="poem15__text"></div> <!-- /poem__text -->
+
+                </div> <!-- /poem__container -->
+
+                <div class="under__poem">
+
+                    <div class="poem__date" id="poem15__date"></div>
+                    
+                    <div class="poem__actions">
+                        <div class="poem__show-more" data-index="15">
+                            <img src="./images/recommendations/angle.png" 
+                            alt="" width="32px" height="25px">
+                        </div>
+                    </div> <!-- /poem__actions -->
+
+                </div> <!-- /under__poem -->
+
+            </div> <!-- /poems__item -->
+
+            <div class="poem-overlay" data-index="15">
+            <div class="poem-content">
+                <button class="close-btn" id="close-poem">x</button>
+                <script>loadPoemToOverlay("./recom-poems/poem15.txt", "poem15");</script>
+                <div class="poem-inner">
+                <div class="poem-title" id="poem15-title"></div>
+                    <div class="poem-text" id="poem15-text"></div>
+
+        <div class="poem-date" id="poem15-date"></div>
+
+                        </div> <!-- /poem-inner -->
+                </div> <!-- /poem-content -->
+            </div> <!-- /poem-overlay -->
         
         <!-- Poem 14 -->
             <div class="poems__item">

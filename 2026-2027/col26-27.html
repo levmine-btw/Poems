@@ -70,6 +70,45 @@
         
         <div class="poems">
         
+        <!-- Poem 5 -->
+            <div class="poems__item">
+                <script>loadPoemToPage("./poems-2026-2027/poem5.txt", prefix='poem5');</script>
+                <div class="poem__title" id="poem5__title"></div>
+                <div class="poem__container">
+
+                    <div class="poem__text" id="poem5__text"></div> <!-- /poem__text -->
+
+                </div> <!-- /poem__container -->
+
+                <div class="under__poem">
+
+                    <div class="poem__date" id="poem5__date"></div>
+                    
+                    <div class="poem__actions">
+                        <div class="poem__show-more" data-index="5">
+                            <img src="../images/recommendations/angle.png" 
+                            alt="" width="32px" height="25px">
+                        </div>
+                    </div> <!-- /poem__actions -->
+
+                </div> <!-- /under__poem -->
+
+            </div> <!-- /poems__item -->
+
+            <div class="poem-overlay" data-index="5">
+            <div class="poem-content">
+                <button class="close-btn" id="close-poem">x</button>
+                <script>loadPoemToOverlay("./poems-2026-2027/poem5.txt", "poem5");</script>
+                <div class="poem-inner">
+                <div class="poem-title" id="poem5-title"></div>
+                    <div class="poem-text" id="poem5-text"></div>
+
+        <div class="poem-date" id="poem5-date"></div>
+
+                        </div> <!-- /poem-inner -->
+                </div> <!-- /poem-content -->
+            </div> <!-- /poem-overlay -->
+        
         <!-- Poem 4 -->
             <div class="poems__item">
                 <script>loadPoemToPage("./poems-2026-2027/poem4.txt", prefix='poem4');</script>
